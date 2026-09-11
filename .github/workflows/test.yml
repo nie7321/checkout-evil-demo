@@ -11,3 +11,7 @@ jobs:
         uses: actions/checkout@d5b6d7f9fad3505d2e7e6475629789e592011fb7
       - name: Thanks
         run: echo "Thanks for playing!"
+      - uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # v6.5.0
+        with:
+          node-version: 24
+          package-manager-cache: false 
